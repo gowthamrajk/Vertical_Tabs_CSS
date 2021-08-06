@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> CSS Vertical Tabs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+   <!--<div class="topic">CSS Vertical Tabs.</div>-->
+    <div class="content">
+      <input type="radio" name="slider" checked id="home">
+      <input type="radio" name="slider" id="blog">
+      <input type="radio" name="slider" id="help">
+      <input type="radio" name="slider" id="code">
+      <input type="radio" name="slider" id="about">
+      <div class="list" style="margin-top: 2%;">
+        <label for="home" class="home">
+        <i class="fas fa-user"></i>
+        <span class="title">About</span>
+      </label>
+      <label for="blog" class="blog">
+        <span class="icon"><i class="fas fa-globe"></i></span>
+        <span class="title">Website</span>
+      </label>
+      <label for="help" class="help">
+        <span class="icon"><i class="fas fa-briefcase"></i></span>
+        <span class="title">Work</span>
+      </label>
+      <label for="code" class="code">
+        <span class="icon"><i class="fas fa-code"></i></span>
+        <span class="title">Projects</span>
+      </label>
+      <label for="about" class="about">
+        <span class="icon"><i class="far fa-address-book"></i></span>
+        <span class="title">Contact</span>
+      </label>
+      <div class="slider"></div>
+    </div>
+      <div class="text-content">
+        <div class="home text">
+          <div class="title" style="font-size: 23px; font-weight: 700; color: #02251f;">GOWTHAMRAJ K - <span style="font-size: 18px; font-weight: 600; color: #053d37;">Full Stack Web Developer</span></div>
+          <div class="image-box">
+              <img src="img/profile.jpg" alt="" width="220" height="240">
+          </div>
+          <p style="margin-left: 240px; margin-top: -250px;">
+            <br>An Aspiring Engineer passionate to learn new things everyday and create innovative applications. I am an <b style="color: darkred">Oracle Certified JAVA Associate Developer</b>. I help people and guide them in Generating <b style="color: darkgreen">Innovative Ideas</b> to Win <b style="color: darkgreen">State and National Level Project Contests</b>. I am good in creating <b style="color: darkorange">outstanding powerpoint presentations for both technical and business level contents</b> and <b style="color: darkblue">creative UI designs</b> for my Web Application.
+          </p>
+        </div>
+        <div class="blog text">
+          <div class="title" style="font-size: 23px; font-weight: 700; color: #02251f;">Personal Website</div>
+          <p>I have My own Website named <b style="color: darkgreen; font-size: large;">CODE-JAMM</b> which helps you to learn <b style="color: darkred">JAVA Programming</b> from scratch to advanced and also brush you up with some knowledge and tricks in web development</p>
+          <div style="margin-top: 2%;">
+            <div onclick="window.location='https://github.com/CodeJamm/CodeJamm';" class="website-btn"><i class="fas fa-donate"></i> Contribute Organization</div>
+            <div onclick="window.location='https://sites.google.com/view/code-jamm';" class="website-btn" style="margin-left: 2%; margin-top: -5%;"><i class="fas fa-globe"></i> Visit Website</div>
+          </div>
+          <hr style="margin-top: 2%; margin-bottom: 3%;">
+          <p>For more Projects and Web developments, visit <b style="color: darkgreen;">My Personal Portfolio</b></p>
+          <div style="margin-top: 2%;">
+            <div onclick="window.location='https://gowthamrajk.github.io/';" class="website-btn"><i class="fas fa-user"></i> Gowthamraj K</div>
+          </div>
+        </div>
+        <div class="help text">
+          <div class="title" style="font-size: 23px; font-weight: 700; color: #02251f;">Working Experience</div>
+          <div class="work-card">
+            <div><img src="img/employee.png" width="90" height="90"></div>
+            <div class="job-name">Associate Engineer - Technology</div>
+            <div class="company">Virtusa Consutancy Services</div>
+            <div class="job-btn" onclick="window.location='https://www.linkedin.com/in/gowtham-kittusamy-54b835174/';">visit profile</div>
+          </div>
+          <p>For more information about my Leadership skills and Technical Stacks i have experienced with, visit <b style="color: darkgreen;">My Personal Portfolio</b></p>
+          <div style="margin-top: 2%;">
+            <div onclick="window.location='https://gowthamrajk.github.io/';" class="website-btn"><i class="fas fa-user"></i> Gowthamraj K</div>
+          </div>
+        </div>
+        <div class="code text">
+          <div class="title" style="font-size: 23px; font-weight: 700; color: #02251f;">Publications</div>
+          <p>I have Published my own application named <b style="color: darkblue; font-weight: 800; font-size: large;">COVID-19 TRACKER</b> which helps you to <b style="color: darkgreen">track worldwide corono status, country wise status, nearby hospitals, symptoms, precaution measures, donate to covid fund, helpline contacts for all states in INDIa</b></p>
+          <div style="margin-top: 2%;">
+            <div onclick="window.location='https://drive.google.com/file/d/1tAbR7RSbizdCPEsuejoWNDExaWaVk_ff/view?usp=sharing';" class="website-btn"><i class="fas fa-download"></i> Install Application</div>
+            <div onclick="window.location='https://github.com/gowthamrajk/COVID-19-Tracker';" class="website-btn" style="margin-left: 2%; margin-top: -5%;"><i class="fas fa-globe"></i> Visit Repo</div>
+          </div>
+          <hr style="margin-top: 2%; margin-bottom: 3%;">
+          <p>For more such publications and developments, visit <b style="color: darkgreen;">My Personal Portfolio</b></p>
+          <div style="margin-top: 2%;">
+            <div onclick="window.location='https://gowthamrajk.github.io/';" class="website-btn"><i class="fas fa-user"></i> Gowthamraj K</div>
+          </div>
+        </div>
+        <div class="about text">
+          <div class="title" style="font-size: 23px; font-weight: 700; color: #02251f;">Get in Touch</div>
+                    <p>Please feel free to reach me for any support or Project discussion any time through the below mentioned sources ... </p>
+                    <p style="margin-bottom: 3%; margin-top: 3%; font-weight: bolder;">Open to Oppurtunities & Mentoring <small style="color: white; background-color: darkgreen; font-weight: bold; margin-left: 2%; margin-right: 1%; padding: 5px 40px 5px 40px; font-size: small; border-radius: 15px;">👍 YES</small></p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>&nbsp;&nbsp; Gowthamraj K
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Achipatti, Pollachi - 642002, TamilNadu, India
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>&nbsp;&nbsp; gowthamraj692@gmail.com
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-phone"></i>&nbsp;&nbsp; 9698382306 / 8610254674
+                        </div>
+                    </div>
+                </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
