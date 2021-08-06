@@ -4,9 +4,10 @@
 
 ### For more such developments, visit my [Portfolio](https://gowthamrajk.github.io/)
 
-- This web page gives you a demo of creating a vertical tab section for a container using pure CSS.
+- This web page gives you a demo of creating a vertical tab for navigation between section in a container using pure CSS.
 
 **🌐 Demo : https://gowthamrajk.github.io/MultiStep_Registration_Form/**
 
 ## 🔭 Features :
 
+1) Vertical tabs for navigation between sections
