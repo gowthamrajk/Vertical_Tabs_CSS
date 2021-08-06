@@ -215,3 +215,59 @@ body{
   font-weight: bolder;
   color: #54081a;
 }
+
+splay: inline-flex;
+  mar.media-icons{
+  position: absolute;
+  bottom: 16px;
+  right: 15px;
+  margin-top: 12px;
+  justify-content: flex-end;
+}
+.media-icons i{
+  digin: 0 4px;
+  font-size: 20px;
+  color: #092c3e;
+  opacity: 0.8;
+  margin-right: 3%;
+  cursor: pointer;
+}
+.media-icons i:hover{
+  opacity: 1;
+}
+.media-icons .fa-facebook-f
+{
+  color: #4267B2;
+}
+.media-icons .fa-twitter
+{
+  color: #1DA1F2;
+}
+.media-icons .fa-google
+{
+  color: red;
+}
+.media-icons .fa-github
+{
+  color: #000;
+}
+.media-icons .fa-whatsapp
+{
+  color: green;
+}
+.media-icons .fa-youtube
+{
+  color: darkred;
+}
+.media-icons .fa-hackerrank
+{
+  color: darkgreen;
+}
+.media-icons .fa-linkedin-in
+{
+  color: darkblue;
+}
+.media-icons .fa-instagram
+{
+  color: #8a3ab9;
+}
