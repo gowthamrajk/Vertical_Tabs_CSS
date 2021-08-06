@@ -10,7 +10,7 @@
 
 ## 🔭 Features :
 
-**1) Vertical tabs for navigation between sections
+**1) Vertical tabs for navigation between sections**
 2) Pure CSS styles with smooth sliders
 3) Attractive UI design
 
