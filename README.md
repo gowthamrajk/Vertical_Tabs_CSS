@@ -11,3 +11,5 @@
 ## 🔭 Features :
 
 1) Vertical tabs for navigation between sections
+2) Pure CSS styles with sliders
+3) 
