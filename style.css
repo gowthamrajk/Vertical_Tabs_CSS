@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  overflow: visible;
+  align-items: center;
+  justify-content: center;
+  background: rgb(2,37,31);
+  background: linear-gradient(85deg, rgba(2,37,31,1) 0%, rgba(9,121,108,1) 40%, rgba(20,185,166,1) 74%, rgba(0,255,247,1) 100%);
+}
+::selection{
+  background: #6d50e2;
+  color: #fff;
+}
+.container{
+  max-width: 950px;
+  width: 100%;
+  padding: 40px 50px  40px  40px;
+  background: #fff;
+  margin: 0 20px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border-radius: 12px;
+  box-shadow: 4px 4px 35px 8px #02251f;
+}
+.container .topic{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .list{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-right: 50px;
+  position: relative;
+}
+.content .list label{
+  height: 60px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 60px;
+  cursor: pointer;
+  padding-left: 25px;
+  transition: all 0.5s ease;
+  color: #333;
+  z-index: 12;
+}
+#home:checked ~ .list label.home,
+#blog:checked ~ .list label.blog,
+#help:checked ~ .list label.help,
+#code:checked ~ .list label.code,
+#about:checked ~ .list label.about{
+  color: #fff;
+}
+.content .list label:hover{
+  color: #8c181c;
+  cursor: pointer;
+}
+.content .slider{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  border-radius: 12px;
+  background: #9c5610;
+  transition: all 0.4s ease;
+}
+.content .slider:hover
+{
+  background: #6e3a07;
+  cursor: pointer;
+}
+#home:checked ~ .list .slider{
+  top: 0;
+}
+#blog:checked ~ .list .slider{
+  top: 60px;
+}
+#help:checked ~ .list .slider{
+  top: 120px;
+}
+#code:checked ~ .list .slider{
+  top: 180px;
+}
+#about:checked ~ .list .slider{
+  top: 240px;
+}
+.content .text-content{
+  width: 80%;
+  height: 100%;
+}
+.content .text{
+  display: none;
+}
+.content .text .title{
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.content .text p{
+  text-align: justify;
+}
+.content .text-content .home{
+  display: block;
+}
+#home:checked ~ .text-content .home,
+#blog:checked ~ .text-content .blog,
+#help:checked ~ .text-content .help,
+#code:checked ~ .text-content .code,
+#about:checked ~ .text-content .about{
+  display: block;
+}
+#blog:checked ~ .text-content .home,
+#help:checked ~ .text-content .home,
+#code:checked ~ .text-content .home,
+#about:checked ~ .text-content .home{
+  display: none;
+}
+.content input{
+  display: none;
+}
+.image-box 
+{
+  height: 240px;
+  width: 220px;
+  margin-top: 3%;
+  border-radius: 12px;
+  padding: 3px;
+  background: #092c3e;
+}
+
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  border-radius: 12px;
+}
+.website-btn
+{
+  border-radius: 15px;
+  background: #0c5c4e;
+  color: white;
+  display:inline-block;
+  padding: 5px 20px 5px 20px;
+  margin-bottom: 2%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.website-btn:hover
+{
+  background-color: #053029; 
+  cursor: pointer;
+}
+.work-card
+{
+  display:inline-block;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 4px gray;
+  padding: 2%;
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+.job-name
+{
+  font-size: 20px; 
+  font-weight: 700; 
+  color: #02251f;
+  margin-left: 100px;
+  margin-top: -22%;
+}
+.company
+{
+  font-size: 17px; 
+  font-weight: 500; 
+  color: gray;
+  margin-left: 100px;
+  margin-top: 1%;
+}
+.job-btn
+{
+  border-radius: 15px;
+  background: #0c5c4e;
+  color: white;
+  display:inline-block;
+  padding: 5px 20px 5px 20px;
+  margin-bottom: 2%;
+  margin-left: 100px;
+  margin-top: 4%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.job-btn:hover
+{
+  background-color: #053029; 
+  cursor: pointer;
+}
+.row
+{
+  margin-bottom: 3%;
+  font-weight: bolder;
+  color: #54081a;
+}
